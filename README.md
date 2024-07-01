@@ -1,3 +1,17 @@
+# Anaconda
+
+[Archive](https://repo.anaconda.com/archive)
+
+```bash
+wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
+chmod +x Anaconda3-2024.06-1-Linux-x86_64.sh
+sh Anaconda3-2024.06-1-Linux-x86_64.sh
+```
+
+```bash
+export PATH=~/anaconda3/bin:~/anaconda3/condabin:$PATH
+```
+
 # GPU
 
 ## Tensorflow
