@@ -12,6 +12,10 @@ sh Anaconda3-2024.06-1-Linux-x86_64.sh
 export PATH=~/anaconda3/bin:~/anaconda3/condabin:$PATH
 ```
 
+```bash
+conda config --set auto_activate_base false
+```
+
 # GPU
 
 ## Tensorflow
